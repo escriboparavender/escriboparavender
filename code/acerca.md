@@ -1,7 +1,7 @@
 ---
 layout: layout-base.njk
 title: ¿Cómo usar este starter project?
-description: En esta página encontrarás instrucciones para configurar y personalizar este starter project.
+description: No para gustar.
 tags: ["pages"]
 date: "2025-01-07"
 ---

@@ -11,7 +11,7 @@
   --black-color: hsl(220, 12%, 8%);
   --white-color: hsl(110, 79%, 32%);
   --text-color: hsl(220, 8%, 28%);
-  --body-color: hsl(48, 80%, 90%);
+  --body-color: hsl(0, 0%, 100%);
   --shadow-img: drop-shadow(0 16px 24px hsla(0, 0%, 0%, .2));
 
   /*========== Font and typography ==========*/
