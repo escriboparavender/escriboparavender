@@ -1,6 +1,6 @@
 export default {
   siteUrl: "https://escriboparavender.github.io/",
-  pathPrefix: "/starter-project-eleventy-github-pages/",
+  pathPrefix: "/escriboparavender/",
   language: "es",
   title: "Eleventy 3 & Github Pages Starter Project",
   description:
