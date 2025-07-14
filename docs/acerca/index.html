@@ -5,23 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>¿Cómo usar este starter project?</title>
   <meta name="description" content="En esta página encontrarás instrucciones para configurar y personalizar este starter project.">
-  <link rel="icon" href="/starter-project-eleventy-github-pages/img/favicon.png">
+  <link rel="icon" href="/escriboparavender/img/logo.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css">
-  <link rel="stylesheet" href="/starter-project-eleventy-github-pages/css/styles.css">
+  <link rel="stylesheet" href="/escriboparavender/css/styles.css">
 </head>
 <body>
-  <header>
-  <div>
-    <a href="/starter-project-eleventy-github-pages/">Mi sitio con <i>Eleventy</i></a>
-    <nav class="menu">
-      <a href="/starter-project-eleventy-github-pages/">Inicio</a>
-      <a href="/starter-project-eleventy-github-pages/acerca">Acerca</a>
-      <a href="/starter-project-eleventy-github-pages/blog">Blog</a>
-    </nav>
-  </div>
-</header>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="/escriboparavender/img/logo.svg" alt="Juan PM Logo">
+          <span>Juan <br> PM</span>
+        </a>
+      <nav>
+  </nav></nav></header>
 
-  <main>
+  <main class="main">
+  
+    <!--==================== HOME ====================-->
+    <section class="home section">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title" id="escribo-para-vender-en-esta-pagina-encontraras-instrucciones-para-configurar-y-personalizar-este-starter-project">Escribo para vender <br> <span>En esta página encontrarás instrucciones para configurar y personalizar este starter project.</span></h1>
+        </div>
+        <div>
+          <h4 class="footer__title" id="nada-de-boletines-aburridos-que-la-gente-espera">Nada de boletines aburridos. Que la gente espera.</h4>
+
+          <div class="footer__info grid">
+              <ul>
+                <li><i class="fas fa-check"></i>✔️ Acceso a productos exclusivos</li>
+              </ul>
+              <a href="https://whatsapp.com/channel/0029VbBEpsgFy72AU17ZS536" class="footer__button button">Ver canal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <h1 id="como-usar-este-starter-project">¿Cómo usar este starter project?</h1>
 <p>Para sacar el máximo provecho de este <em>starter project</em> te sugiero leer la <a href="https://www.11ty.dev/docs/">documentación oficial de <em>Eleventy</em></a> y personalizarlo a tu gusto y necesidades, pues este proyecto contiene una estructura muy básica para comenzar desarrollar proyectos web minimalistas y desplegarlos en <em>GitHub Pages</em>.</p>
 <p>A continuación te doy una revisión de las características que incluye.</p>
@@ -56,7 +75,7 @@ README.md</code></pre>
 </ul>
 </li>
 <li><strong><em><code>docs</code></em></strong>: es la carpeta que contiene el código estático generado por <em>Eleventy</em> que se desplegará en <em>GitHub Pages</em>, para que esto suceda, ve a la sección <strong><em>Settings</em></strong> de tu repositorio, opción <strong><em>Pages</em></strong> y en ella configura que la carpeta <strong><em><code>docs</code></em></strong> despliegue la rama <em>main</em> en <em>GitHub Pages</em>.
-<img src="/starter-project-eleventy-github-pages/img/configurar-github-pages.png" alt="Configurar GitHub Pages"></li>
+<img src="/escriboparavender/img/configurar-github-pages.png" alt="Configurar GitHub Pages"></li>
 <li><strong><em><code>.gitignore</code></em></strong>: Archivo de <em>Git</em> para ignorar archivos y carpetas que no quieres que se suban al repositorio de código.</li>
 <li><strong><em><code>eleventy.config.js</code></em></strong>: Archivo de configuración de <em>Eleventy</em>.</li>
 <li><strong><em><code>packagelock.json</code></em></strong>: Archivo de dependencias <em>Node</em> del proyecto.</li>
@@ -125,13 +144,13 @@ README.md</code></pre>
 </div>
 
   </main>
-  
-<footer>
-  <div>
-    🎈🦡 <small>Sitio hecho con <a href="https://www.11ty.dev/" target="_blank"><b><i>Eleventy v3.1.2</i></b></a></small> 🦡🎈
-  </div>
+  <footer class="footer">
+  <span class="footer__copy">
+    &copy; Todos los derechos reservados por Juan PM.
+  </span>
 </footer>
 
-  <script src="/starter-project-eleventy-github-pages/js/main.js" type="module"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="/escriboparavender/js/main.js" type="module"></script>
 </body>
 </html>

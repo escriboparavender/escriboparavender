@@ -3,7 +3,7 @@ layout: layout-base.njk
 title: Ousama Ranking
 description: Descripción de la serie Ousama Ranking.
 tags: ["blog", "series"]
-date: "2025-08-20"
+date: "2025-05-20"
 ---
 
 # {{title}}

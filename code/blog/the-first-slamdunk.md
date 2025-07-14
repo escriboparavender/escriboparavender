@@ -3,7 +3,7 @@ layout: layout-base.njk
 title: The First SlamDunk
 description: Descripción de la película The First SlamDunk.
 tags: ["blog", "peliculas"]
-date: "2025-11-11"
+date: "2025-06-11"
 ---
 
 # {{title}}

@@ -5,16 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or metadata.title }}</title>
   <meta name="description" content="{{ description or metadata.description }}">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="/img/logo.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   {% include "header.njk" %}
-  <main>
+  <main class="main">
+  
+    <!--==================== HOME ====================-->
+    <section class="home section">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">Escribo para vender <br> <span>{{description}}</span></h1>
+        </div>
+        <div>
+          <h4 class="footer__title">Nada de boletines aburridos. Que la gente espera.</h4>
+
+          <div class="footer__info grid">
+              <ul>
+                <li><i class="fas fa-check"></i>✔️ Acceso a productos exclusivos</li>
+              </ul>
+              <a href="https://whatsapp.com/channel/0029VbBEpsgFy72AU17ZS536" class="footer__button button">Ver canal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     {{ content | safe }}
   </main>
   {% include "footer.njk" %}
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="/js/main.js" type="module"></script>
 </body>
 </html>

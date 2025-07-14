@@ -11,6 +11,13 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "code/public/": "/",
   });
+
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    return collectionApi.getFilteredByTag("blog").sort(function(a, b) {
+      return b.date - a.date; // Ordena por fecha descendente (más reciente primero)
+    });
+  });
+
 }
 
 export const config = {

@@ -13,9 +13,9 @@
     "11ty",
     "eleventy",
     "github pages",
-    "jonmircha"
+    "tojuanin"
   ],
-  "author": "Jonathan MirCha <jonmircha@gmail.com>",
+  "author": "Juan PM <escriboparavender.oficial@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",

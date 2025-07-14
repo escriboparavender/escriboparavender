@@ -3,7 +3,7 @@ layout: layout-base.njk
 title: Demon Slayer
 description: Descripción de la serie Demon Slayer.
 tags: ["blog", "series"]
-date: "2025-07-17"
+date: "2025-05-17"
 ---
 
 # {{title}}
