@@ -101,7 +101,7 @@ img {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 2.5;
   font-size: var(--h3-font-size);
 }
 
@@ -132,6 +132,7 @@ p {
 }
 
 .section__subtitle {
+  text-align: left;
   display: block;
   font-size: var(--h2-font-size);
   margin-bottom: .25rem;

@@ -1,12 +1,11 @@
 ---
-layout: layout-base.njk
+layout: layout-post.njk
 title: ¿Cómo usar este starter project?
 description: No para gustar.
 tags: ["pages"]
 date: "2025-01-07"
 ---
-
-# {{ title }}
+<h2 class="section__title">{{ title }}</h2>
 
 Para sacar el máximo provecho de este _starter project_ te sugiero leer la [documentación oficial de _Eleventy_](https://www.11ty.dev/docs/) y personalizarlo a tu gusto y necesidades, pues este proyecto contiene una estructura muy básica para comenzar desarrollar proyectos web minimalistas y desplegarlos en _GitHub Pages_.
 
